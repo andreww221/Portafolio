@@ -46,6 +46,13 @@ body {
 
 }
 
+main{
+  display: flex ;
+  align-items: center ;
+  justify-content: center ;
+}
+
+
 
 
 
@@ -120,64 +127,9 @@ nav ul {
 
 
 
-/* SECCION PRESENTACION */
-
-.main__seccion1 {
-  padding-top: 7rem;
-  width: 90%;
-  margin: 0 auto;
-  height: 100%;
-
-}
-
-.seccion1__cotenido {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  animation: animacionSeccion1;
-  animation-duration: 2s;
-
-}
-
-
-@keyframes animacionSeccion1 {
-
-  0%{transform: translateX(-200%);}
-  100%{transform: translateX(0);}
-
-  
-}
 
 
 
-
-
-.seccion1__cotenido div a svg {
-  margin-top: 2rem;
-  width: 4rem;
-  margin-right: 3rem;
-  background-color: white;
-  padding: .5rem;
-  border-radius: 1rem;
-}
-
-
-.seccion1__cotenido img {
-
-  width: 20rem;
-  border-radius: 50%;
-  margin: 0 auto;
-
-}
-
-.seccion1__cotenido h1 {
-
-  padding-top: 5rem;
-  font-size: 2rem;
-  color:var(--blanco);
-  
-}
 
 
 
