@@ -40,7 +40,7 @@ body {
 .layoutBase {
   width: 100vw;
   height: 100vh;
-  background-color: var(--colorPrimario); 
+  background-color: var(--colorPrimario);
   display: grid;
   grid-template-rows: 10% 90%;
 
@@ -73,10 +73,47 @@ nav ul {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  
+
 }
 
 
-/*ADAPATARLO PARA TABLET*/
+/*ADAPATAR LA NAV PARA TABLET*/
+
+@media (min-width: 765px) {
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+
+  }
+
+}
 
 
+/* ADAPTAR LA NAV PARA PC */
+
+
+@media (min-width: 1024px) {
+
+  .layoutBase {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--colorPrimario);
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 10% 90%;
+
+
+  }
+
+
+  nav ul {
+
+    flex-direction: column;
+
+    gap: 5rem;
+  }
+
+
+}
