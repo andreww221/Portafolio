@@ -4,10 +4,10 @@
 
     width: 90%;
     margin: 0 auto;
-  
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
   
   }
   
@@ -23,8 +23,8 @@
   
   @keyframes animacionSeccion1 {
   
-    0%{transform: translateX(-300%);}
-    100%{transform: translateX(0);}
+    0%{transform: translateY(-300%);}
+    100%{transform: translateY(0);}
   
     
   }

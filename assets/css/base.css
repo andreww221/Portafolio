@@ -73,6 +73,7 @@ nav ul li {
   background-color: var(--blanco);
   padding: 1rem;
   border-radius: 3rem;
+  cursor: pointer;
 
 }
 
@@ -135,11 +136,33 @@ nav ul {
 
 /* SECCION SOBRE MI */
 
-.main__seccion2 {
-  background-color: green;
-  width: 100%;
+.main__seccion2   {
+  padding-top: 3rem;
+  color:var(--blanco);
+  width: 90%;
+  margin: 0 auto;
   height: 100%;
 }
+
+.main__seccion2  h2 {
+ font-size: 3rem;
+ text-align: center;
+ padding-bottom: 2rem;
+}
+
+.main__seccion2  p {
+  font-size: 2rem;
+ }
+
+
+.main__seccion2  .seccion2__contenido section div{
+  margin-top: 3rem;
+  background-color: green;
+ 
+}
+
+
+
 
 /* SECCION HABILIDADES */
 
