@@ -1,0 +1,108 @@
+
+/* SECCION HABILIDADES */
+
+.main__seccion3 {
+    color:White;
+    width:70%;
+    
+    }
+    
+    .main__seccion3 h2{
+
+      font-size: 3rem;
+      text-align: center;
+      padding-bottom: 2rem;
+      margin-bottom: 5rem;
+      
+      }
+    
+    .seccion3__contenido{
+      display: grid;
+      width: 100%;
+      grid-template-columns: 50% 50%;
+      column-gap: 1rem;
+      row-gap: 5rem;
+    
+    }
+    
+    .seccion3__contenido div {
+    
+      text-align: center;
+     }
+     
+    
+    .seccion3__contenido div img{
+     max-width: 10rem;
+    }
+    
+    
+    /*  */
+    @media (min-width:1024px){
+      .seccion3__contenido{
+    
+        grid-template-columns: 25% 25% 25% 25%;
+    
+      }
+    
+    }
+    
+    .contenido__icono1{
+    
+      animation: animacionIcono1;
+      animation-duration: 1s;
+    }
+    
+    .contenido__icono2{
+    
+      animation: animacionIcono2;
+      animation-duration: 2s;
+    }
+    
+    
+    .contenido__icono3{
+    
+      animation: animacionIcono3;
+      animation-duration: 3s;
+    }
+    
+    
+    .contenido__icono4{
+    
+      animation: animacionIcono4;
+      animation-duration: 4s;
+    }
+    
+    
+    
+    @keyframes animacionIcono1 {
+    
+      0%{transform: scale(0);}
+      100%{transform: scale(1);}
+      
+    }
+    
+    @keyframes animacionIcono2 {
+    
+      0%{transform: scale(0);}
+      100%{transform: scale(1);}
+      
+    }
+    
+    
+    @keyframes animacionIcono3 {
+    
+      0%{transform: scale(0);}
+      100%{transform: scale(1);}
+      
+    }
+    
+    
+    @keyframes animacionIcono4 {
+    
+      0%{transform: scale(0);}
+      100%{transform: scale(1);}
+      
+    }
+    
+    
+    
