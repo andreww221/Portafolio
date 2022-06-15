@@ -1,37 +1,35 @@
 /* SECCION SOBRE MI */
 
 .main__seccion2 {
-    padding-top: 5rem;
+
     color: var(--blanco);
     width: 90%;
     margin: 0 auto;
+    line-height: 3rem;
 
 
 
 }
 
 .main__seccion2 h2 {
+    margin-top: 12rem;
     font-size: 3rem;
     text-align: center;
     padding-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 .main__seccion2 p {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+
 }
 
-.main__seccion2 .seccion2__contenido {
-    line-height: 3rem;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+
+.main__seccion2{
     animation: animacionSeccion2;
     animation-duration: 1.5s;
-    padding-bottom: 3rem;
-    text-align: justify;
-
 }
-
 
 
 @keyframes animacionSeccion2 {
@@ -46,6 +44,67 @@
 
 
 }
+
+
+
+.contenido__icono1{
+
+    animation: animacionIcono1;
+    animation-duration: 1s;
+}
+
+.contenido__icono2{
+
+    animation: animacionIcono2;
+    animation-duration: 2s;
+}
+
+
+.contenido__icono3{
+
+    animation: animacionIcono3;
+    animation-duration: 3s;
+}
+
+
+.contenido__icono4{
+
+    animation: animacionIcono4;
+    animation-duration: 4s;
+}
+
+
+
+@keyframes animacionIcono1 {
+
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+    
+}
+
+@keyframes animacionIcono2 {
+
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+    
+}
+
+
+@keyframes animacionIcono3 {
+
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+    
+}
+
+
+@keyframes animacionIcono4 {
+
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+    
+}
+
 
 
 
