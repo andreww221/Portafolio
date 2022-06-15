@@ -16,15 +16,16 @@
     flex-direction: column;
     justify-content: center;
     animation: animacionSeccion1;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
+    text-align: center;
   
   }
   
   
   @keyframes animacionSeccion1 {
   
-    0%{transform: translateY(-300%);}
-    100%{transform: translateY(0);}
+    0%{transform: translateX(-300%);}
+    100%{transform: translateX(0);}
   
     
   }
@@ -71,5 +72,19 @@
   
   
   }
+
+
+
+  /* SECCION PRESENTACION PARA PC */
   
+  @media (min-width: 1024px) {
   
+    @keyframes animacionSeccion1 {
+  
+      0%{transform: translateY(-300%);}
+      100%{transform: translateY(0);}
+    
+      
+    }
+   
+   }

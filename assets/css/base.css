@@ -46,10 +46,10 @@ body {
 
 }
 
-main{
-  display: flex ;
-  align-items: center ;
-  justify-content: center ;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -59,11 +59,14 @@ main{
 
 /* ESTILOS DE LA NAVEGACION */
 nav {
+
   width: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 3rem;
+
 }
 
 
@@ -81,6 +84,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   gap: 2rem;
+
 
 }
 
@@ -134,32 +138,8 @@ nav ul {
 
 
 
-/* SECCION SOBRE MI */
-
-.main__seccion2   {
-  padding-top: 3rem;
-  color:var(--blanco);
-  width: 90%;
-  margin: 0 auto;
-  height: 100%;
-}
-
-.main__seccion2  h2 {
- font-size: 3rem;
- text-align: center;
- padding-bottom: 2rem;
-}
-
-.main__seccion2  p {
-  font-size: 2rem;
- }
 
 
-.main__seccion2  .seccion2__contenido section div{
-  margin-top: 3rem;
-  background-color: green;
- 
-}
 
 
 
